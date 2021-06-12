@@ -1,0 +1,55 @@
+h1
+{
+	text-align: center;
+	color:red;
+	padding-top:2%;/*écart entre le text et le haut de page*/
+	padding-bottom:8%;/* ecart entre titre et cadre*/
+}
+
+#cadre
+{
+	border:3px black ridge ;
+	width: 50%;
+	height: 40%;
+	position:absolute;
+	left:25%;
+	background-color: #d3d3d3; /*couleur du cadre */
+	opacity: 0.75;/*opacité*/
+}
+
+#info1
+{
+	position: absolute;
+	top: 25%; 
+	left: 15%;
+	text-align: left;
+	
+}
+
+#info2
+{
+	position: absolute;
+	top: 25%; 
+	right: 15%;
+	text-align: left;
+}
+
+h2
+{
+	text-align:center;
+}
+h3
+{
+	position: absolute;
+	bottom:5%;
+	left:42%; 
+}
+body
+{
+		background-image: url(bg-10.jpg); /* insere l'image en arriére plan */
+		background-repeat:no-repeat; /* évite d'avoir l'image en plusieur fois */
+		background-size: cover;  /*adapte l'image selon la taille du naiguateur*/
+			
+}		
+
+/* voir responsive pour adapter au écran  */

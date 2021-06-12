@@ -1,0 +1,9 @@
+mettre diagramme
+expliqué choix.js
+expliqué choix php ligne 7 et 9
+
+asynchrone se fait en arriére plan fait d'autre chose en attendant la réponse
+
+synchrone: attend la réponse
+
+finir dans generale par division des tâches 

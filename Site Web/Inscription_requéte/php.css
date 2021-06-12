@@ -1,0 +1,58 @@
+#cadre
+{
+	border:3px #b0b6b8 groove ;
+	width:50%;
+	height:40%;
+	position:absolute;
+	background-color: #d3d3d3; 
+	left:25%;
+	opacity: 0.75;
+}
+
+h1
+{
+	text-align:center;
+	color:#ec5a1b;
+	padding-top:2%;
+	padding-bottom:4%;
+}
+
+h2
+{
+	text-align:center;
+	font-family:cursive;
+}
+
+#info1
+{
+	position: absolute;
+	top: 25%; 
+	left: 15%;
+	text-align: left;
+	
+}
+
+#info2
+{
+	position: absolute;
+	top: 25%; 
+	right: 15%;
+	text-align: left;
+}
+
+#identifiant
+{
+	position: absolute;
+	left:17%;
+	font-family:Monospace;
+	font-size:135%;
+	bottom:15%;
+}
+
+body
+{
+	background-image:url(bg-3.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}

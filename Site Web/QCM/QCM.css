@@ -1,0 +1,129 @@
+html, body
+{
+	margin:0;
+	padding:0;
+	background-image: url("question_background.png");
+}
+
+#bordure 
+{
+	overflow:auto;/*monte la banniere */
+	display:block;
+	width: 100%;
+	height: 100px;
+	background-color: #b02800; /*on met la couleur de l'objet en rouge */
+	color: black; /* couleur du text en noir*/
+}
+
+h1
+{
+	font-family:system-ui;
+	font-size:25.4px;
+	text-align:left;
+}
+
+h2
+{
+	text-align:center;
+	font-family:sans-serif;
+	font-size:29px;
+	line-height:1%;
+}
+
+h3
+{
+	text-align:center;
+	font-family: cursive;
+	font-size:30px;
+}
+
+
+#grandcadre
+{
+	position:relative;
+	height:640px; /* hauteur du cadre */
+	width:950px; /* largeur du cadre */
+	margin:4%auto;/* centre le cadre dans la page */
+	background-color:#de3c0c;
+	opacity:0.80;
+	border:3px ridge;
+}
+
+#persotext
+{
+	text-align:center;
+	font-weight:bolder; /* écriture du text */
+	font-size:23px;
+	/* line-height:115px;  centrage par réglage ligne*/
+}
+
+#cadre1
+{
+	position:absolute;
+	height:25%;
+	width:30%;
+	left:15%;
+	top:20%;
+	
+	background-color:#E4EFFF;
+	opacity:0.90;
+	border:2px solid #9FC6FF;
+	border-radius:11px; /*fonctionalité permettant d'arrondir les angles */
+}
+	
+#cadre2
+{
+	position:absolute;
+	height:25%;
+	width:30%;
+	left:55%;
+	top:20%;
+	
+	background-color:#E4EFFF;
+	opacity:0.90;
+	border:2px solid #9FC6FF;
+	border-radius:11px; /*fonctionalité permettant d'arrondir les angles */
+}
+
+#cadre3
+{
+	position:absolute;
+	height:25%;
+	width:30%;
+	left:15%;
+	top:55%;
+	
+	background-color:#E4EFFF;
+	opacity:0.90;
+	border:2px solid #9FC6FF;
+	border-radius:11px; /*fonctionalité permettant d'arrondir les angles */
+}
+
+
+#cadre4
+{
+	position:absolute;
+	height:25%;
+	width:30%;
+	left:55%;
+	top:55%;
+	
+	background-color:#E4EFFF;
+	opacity:0.90;
+	border:2px solid #9FC6FF;
+	border-radius:11px; /*fonctionalité permettant d'arrondir les angles */
+}
+
+#suivant
+{
+	position: absolute;
+	left:83%;
+	bottom:5%;
+	border-radius:6px;
+	height:5%;
+	width:10%;
+	background-color: grey;
+	font-family:Georgia;
+	font-size:20px;
+	opacity:0.75;
+}

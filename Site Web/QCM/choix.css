@@ -1,0 +1,35 @@
+body
+{
+	background-image: url("quizz.jpg"); /*on met l'image quizz.jpg en arrière plan */
+	background-repeat:no-repeat; /* on empèche l'image de s'afficher en plusieurs fois (elle s'affiche en 1 fois) */
+}
+
+.case
+{
+	background: url(quizz_case.png);
+	background-size: 100% 100% ; /* occupe 100% de la div */
+
+	display: flex;
+	height: 200px;
+	width: 200px ;
+	justify-content:space-around ; /*espace entre les cases */
+	align-items:center; /*sert à pas etendre les élement avec height */
+	
+	text-align:center; /* on centre le text*/
+	font-family:Verdana;
+	font-size:large;
+}
+
+#propositions
+{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content:space-around ; /*espace entre les cases */
+}
+
+   /* 
+    box-sizing: border-box;
+	background-color: gold;
+	border-radius:5px;
+    margin: 5px; 
+	*/
