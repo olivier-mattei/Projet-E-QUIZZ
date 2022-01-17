@@ -5,3 +5,4 @@ des étudiants sous forme d’un quizz projeté sur écran auquel on peut répon
 application sur smartphone : création d’une base de données avec MariaDB. création de
 page web en HTML5, utilisation de CSS3 et d’une requête SQL en PHP, utilisation de
 JAVASCRIPT pour une page web dynamique (animée) avec utilisation de AJAX.
+Liens: https://e-quizz.000webhostapp.com/QCM/choix.html
